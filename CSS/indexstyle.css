@@ -1,0 +1,34 @@
+
+a{
+    text-decoration: none;
+}
+ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+}  
+li{
+        font-size:40px;       
+}
+p{
+        font-family: "red hat display";
+}
+#otrocolor{
+        color: #4dcb5b; 
+}
+.nose{
+        font-family: "red hat display" ;
+        color: brown;
+}
+.letra{
+font-family: "red hat display";
+}
+div{
+        background-color: darkgray;
+        border-style: solid;
+}
+input:default{
+        background-color: rgb(146, 140, 140);
+}
+
