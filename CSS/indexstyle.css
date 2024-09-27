@@ -31,4 +31,51 @@ div{
 input:default{
         background-color: rgb(146, 140, 140);
 }
-
+@media screen and (max-width:1200px){
+        #grilla{
+        background-color: rgb(135, 141, 134);
+        }
+        ul{
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            list-style-type: none;
+            background-color: black;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100%;
+        }
+    }
+    @media  screen and (max-width:480px) {
+        #grilla{
+        background-color: black;
+        }
+        ul{
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            list-style-type: none;
+            background-color: black;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100%;
+        }
+    }
+    @media  screen and (max-width:320px) {
+        #grilla{
+            background-color: cadetblue;
+        }
+        ul{
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            list-style-type: none;
+            background-color: black;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100%;
+        }
+    }
