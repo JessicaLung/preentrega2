@@ -19,4 +19,44 @@
     img{
         width: 100%;
     }
- 
+    .papa{
+        display:grid;
+        height: 100%;
+        grid-template-rows:  400px 350px 350px;
+        grid-template-columns: 30% 40% 30%;
+        grid-template-areas:" a1 a2 a2 "
+                            " a3 a3 a4 "
+                            " a5 a6 a4 ";
+    }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+}
+   
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: aqua;
+    border: 6px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.card-xl {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    background-color: aqua;
+}
+
+.content {
+    flex-wrap: 1;
+}
+
+.containerrr {
+    background-color: tomato;
+}
