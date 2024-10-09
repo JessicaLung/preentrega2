@@ -79,3 +79,8 @@ input:default{
             height: 100%;
         }
     }
+.letraUno{
+    font-family: "Unna";
+    text-align: center;
+    font-size: 100px;
+}

@@ -34,15 +34,14 @@
     padding: 8px;
     margin: 8px;
 }
-.card-xl {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 3;
-    background-color: brown;
-}
 .content {
  flex-wrap: 1;
 }
 .container {
     background-color: white;
+}
+.letraTres{
+    font-family: "Unna";
+    text-align: center;
+    font-size: 100px;
 }
