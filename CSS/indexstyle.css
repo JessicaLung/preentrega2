@@ -19,11 +19,11 @@ p{
 }
 .nose{
         font-family: "Unna" ;
-        color: white;
+        color: black;
 }
 .letra{
 font-family: "Unna";
-color: white;
+color: black;
 }
 .lose{
         background-color: darkgray;
@@ -67,4 +67,7 @@ footer{
 }
 h2{
     color: white;
+}
+footer{
+    background-color: white;
 }
